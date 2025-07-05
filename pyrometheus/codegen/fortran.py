@@ -580,8 +580,8 @@ contains
         ${real_type}, intent(out) :: temperature
 
         integer :: iter
-        integer,      parameter :: num_iter = 1000
-        ${real_type}, parameter :: tol = 1.0d-10
+        integer,      parameter :: num_iter = 2000
+        ${real_type}, parameter :: tol = 1.0d-16
 
         ${real_type} :: iter_temp
         ${real_type} :: iter_energy
